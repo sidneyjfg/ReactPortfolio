@@ -48,6 +48,11 @@ html, body, #root{
   border: 1px solid #797D89;
 }
 
+.heading {
+  text-align: center;
+  font-size: 4.5rem;
+}
+
 .heading span {
   align-items: center;
   color: rgb(133, 160, 242, 95);
@@ -60,7 +65,7 @@ html, body, #root{
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  /*background: url(./img/background.png) no-repeat;*/
+  background: url(./img/background.png) no-repeat;  
   background-size: cover;
   background-position: center;
   display: flex;
@@ -220,4 +225,69 @@ html, body, #root{
 
 .tab-contents.active-tab {
   display: block;
+}
+
+
+/*Services page*/
+
+#service {
+  padding-top: 70px ;
+  background: linear-gradient(-40deg, #142B39, #060D13);
+  padding-bottom: 300px;
+  /* Adicionar mais espaço no final da seção */
+  height: auto;
+  /* Tornar a altura automática para se adaptar ao conteúdo */
+}
+
+.services h2 {
+  text-align: center;
+
+}
+
+.services-content {
+  display: flex;
+  justify-content: space-around; /* Distribute items evenly along the main axis */
+  align-items: stretch; /* Stretch items to fill the container height */
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0px 30px;
+}
+
+.services-box {
+  width: calc(33.33% - 2rem); /* Calculate width for three items with gap between them */
+  background-color: #143d57;
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  text-align: center;
+  border: .1rem solid #00000057;
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.services-box .btn-more {
+  justify-content: center;
+  margin-top: auto; /* Alinhar o botão ao final do card */
+}
+
+.services-content .services-box:hover {
+  border-color: rgb(133, 160, 242, 95);
+  transform: scale(1.02);
+}
+
+.services-box i {
+  font-size: 7rem;
+  color: rgb(133, 160, 242, 95);
+}
+.services-box h3,
+.services-box p {
+  flex: 1; /* Distribuir o espaço igualmente entre o título e o parágrafo */
+}
+.services-box h3 {
+  font-size: 2.4rem;
+}
+
+.services-box p {
+  font-size: 1.3rem;
+  margin: 1rem 0 2rem;
 }

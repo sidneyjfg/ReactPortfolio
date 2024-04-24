@@ -16,7 +16,7 @@ function About() {
           </div>
           <div className="about-col-2">
             <h1 className="heading">About <span>Me</span></h1>
-            <p align="justify">Sidney, 20 years old, Information Systems student at PUC Minas. Passionate about
+            <p align="justify">Sidney, 20 years old, Information Systems student at University Positivo (UP). Passionate about
               technology, he dedicates his free time to this area. Proactive and looking for challenges and opportunities
               to grow professionally. He aims to work on innovative projects and in the future combine travel with work,
               automating his home with artificial intelligence. Sociable, enjoys spending time with friends and family,
