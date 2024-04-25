@@ -51,7 +51,7 @@ function Projects() {
         setResultadoCep("");
     }
     return (
-        <div className="projects" id="projects">
+        <div className="projects" id="Projects">
             <h2 className="heading">Latest<span> Projects</span></h2>
 
             <div className="projects-content">

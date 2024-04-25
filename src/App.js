@@ -13,16 +13,17 @@ function App() {
   return (
     
     <Router>
-      
-      <div className='nav-bar'>
-        <div className='logo'>
-          <img src={Logo} alt="Logo"></img>
+      <header>
+        <div className='nav-bar'>
+          <div className='logo'>
+            <img src={Logo} alt="Logo"></img>
+          </div>
+          <a href="#Home">Home</a>
+          <a href="#About">About</a>
+          <a href="#Service">Services </a>
+          <a href="#Projects">Projects</a>
         </div>
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Service">Services </a>
-        <a href="#Projects">Projects</a>
-      </div>
+      </header>
       
         <Home />
         <About />

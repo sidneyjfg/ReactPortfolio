@@ -15,7 +15,7 @@ function Home() {
     }, []);
 
     return (
-        <div className='Home'>
+        <div className='Home' id="Home">
             <div className='home-content'>
                 <h3>Hello, It's me</h3>
                 <h1>Sidney Junio</h1>

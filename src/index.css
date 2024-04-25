@@ -12,19 +12,22 @@
 
 html, body, #root{
   scroll-behavior: smooth;
-  background-color: #373636;
   height: 100%;
   color: #F8F7F3;
+  background: linear-gradient(-40deg, #142B39, #060D13);
 }
 .nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10%;
+  background: linear-gradient(rgba(0, 0, 0, 0.938),transparent);
+
   display: flex;
   justify-content: space-between;
-  padding: 0 90px;
   align-items: center;
-  margin: 0 40px 0 40px;
-  background-color:#797D89;
-  border: 2px solid transparent;
-  border-radius: 0.9em;
+  z-index: 100;
 }
 .logo img {
   border-radius: 10px;
@@ -35,6 +38,8 @@ html, body, #root{
 .nav-bar a{
   color: inherit; /* Or set your desired color */
   text-decoration: none;
+  font-weight: 500;
+  font-size: 25px;
 }
 
 .nav-bar a:hover{
@@ -230,8 +235,8 @@ html, body, #root{
 
 /*Services Section*/
 
-#service {
-  padding-top: 70px ;
+#Service {
+  padding-top: 160px;
   background: linear-gradient(-40deg, #142B39, #060D13);
   padding-bottom: 300px;
   /* Adicionar mais espaço no final da seção */
@@ -296,7 +301,7 @@ html, body, #root{
 
 .projects {
   background: linear-gradient(40deg, #060D13, #142B39);
-  padding-top: 190px;
+  padding-top: 40px;
   /* Adicionar mais espaço no final da seção */
   height: auto;
   /* Tornar a altura automática para se adaptar ao conteúdo */

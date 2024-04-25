@@ -8,11 +8,11 @@ function About() {
   };
 
   return (
-    <div id="About">
+    <div className="about" id="About">
       <div className="about-content">
         <div className="row">
           <div className="about-col-1">
-            <img id="profileAbout" src="../Portfolio/img/Sidney.jpg" alt="Sidney Junio"></img>
+            <img id="profileAbout" src="../img/Sidney.jpg" alt="Sidney Junio"></img>
           </div>
           <div className="about-col-2">
             <h1 className="heading">About <span>Me</span></h1>
