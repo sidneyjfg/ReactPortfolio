@@ -1,4 +1,8 @@
 import React, { useState } from 'react';
+import chatOnline from '../../img/chatOnline.png'
+import cardIndexFlutter from '../../img/cardIndexFlutter.png'
+import projetoSite from '../../img/projetoSite.png'
+import certificate from '../../img/certificate.png'
 
 function Projects() {
     const [resultadoCep, setResultadoCep] = useState('');
@@ -56,7 +60,7 @@ function Projects() {
 
             <div className="projects-content">
                 <div class="projects-box">
-                    <img src="./img/cardIndexFlutter.png" alt=""></img>
+                    <img src={cardIndexFlutter} alt=""></img>
                     <div class="project-layer">
                         <h4>App Mobile</h4>
                         <p>This app provides basic features such as login authentication seamlessly linked to the bank (Firebase), and some others functions
@@ -65,7 +69,7 @@ function Projects() {
                     </div>
                 </div>
                 <div class="projects-box">
-                    <img src="./img/projetoSite.png" alt=""></img>
+                    <img src={projetoSite} alt=""></img>
                     <div class="project-layer">
                         <h4>Web design</h4>
                         <p>This site was intended to be created in order to serve a Customer service, building gas maintenance and others.
@@ -98,7 +102,7 @@ function Projects() {
                     </div>
                 </div>
                 <div class="projects-box">
-                    <img src="./img/certificate.png" alt=""></img>
+                    <img src={certificate} alt=""></img>
                         <div class="project-layer">
                             <h4>Python project</h4>
                             <p>This Python script automates the generation of certificates for students based on data provided in an Excel spreadsheet
@@ -108,7 +112,7 @@ function Projects() {
             </div>
 
             <div class="projects-box">
-                <img src="./img/chatOnline.png" alt=""></img>
+                <img src={chatOnline} alt=""></img>
                     <div class="project-layer">
                         <h4>Project ChatSid</h4>
                         <p>This project its about an online chat using technologies like Python and Django

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import imageAbout from '../../img/Sidney.jpg'
 
 function About() {
   const [activeTab, setActiveTab] = useState('skills'); // Initial active tab
@@ -12,7 +13,7 @@ function About() {
       <div className="about-content">
         <div className="row">
           <div className="about-col-1">
-            <img id="profileAbout" src="../img/Sidney.jpg" alt="Sidney Junio"></img>
+            <img id="profileAbout" src={imageAbout} alt="Sidney Junio"></img>
           </div>
           <div className="about-col-2">
             <h1 className="heading">About <span>Me</span></h1>
@@ -46,7 +47,7 @@ function About() {
             <div className={`tab-contents ${activeTab === 'skills' ? 'active-tab' : ''}`} id="skills">
               <ul>
                 <li><span>App Development</span><br></br>Begginer in Building Android/iOS apps using Dart language</li>
-                <li><span>BackEnd and FrontEnd Tecnologies</span><br></br>Tecnologies like HTML, CSS/Bootstrap, Javascript, python, django, C# and javascript</li>
+                <li><span>BackEnd and FrontEnd Tecnologies</span><br></br>Tecnologies like HTML, CSS/Bootstrap, Javascript, React, Python, django, C# and javascript</li>
                 <li><span>Operational System</span><br></br>Development using Linux/Windows</li>
                 <li><span>Databases</span><br></br>Implement database in applications like MySQL</li>
               </ul>

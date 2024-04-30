@@ -1,17 +1,17 @@
 
-import { BrowserRouter as Router,} from 'react-router-dom';
+import { BrowserRouter as Router, } from 'react-router-dom';
 
 import Logo from './img/sjTransparent.png';
 import Home from './Components/Pages/Home';
 import About from './Components/Pages/About';
-import Project from './Components/Pages/Project'; 
+import Project from './Components/Pages/Project';
 import Services from './Components/Pages/Service';
 
 function App() {
   //const [activeLink, setActiveLink] = useState(null);
-  
+
   return (
-    
+
     <Router>
       <header>
         <div className='nav-bar'>
@@ -24,17 +24,19 @@ function App() {
           <a href="#Projects">Projects</a>
         </div>
       </header>
-      
-        <Home />
-        <About />
-        <Services />
-        <Project />
-      
-      <p>footer</p>
+
+      <Home />
+      <About />
+      <Services />
+      <Project />
+      <footer class="text-center py-3 copy">
+        <p>Copyright ©2024 Sidney's portfolio</p>
+      </footer>
     </Router>
-      
+    
+
   );
-  
+
 }
 
 export default App;

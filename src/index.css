@@ -493,3 +493,9 @@ button:hover {
   margin-bottom: 15px;
   /* Espaçamento no topo */
 }
+
+/*FOOTER*/
+footer.copy {
+  bottom: 0;
+  align-items: center;
+}

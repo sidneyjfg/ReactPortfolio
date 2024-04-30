@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Typed from 'typed.js'; // Import Typed.js
-
+import curriculum from '../../doc/curriculumSidney.pdf'
 
 function Home() {
     useEffect(() => {
@@ -29,7 +29,7 @@ function Home() {
                     <a href='https://github.com/sidneyjfg'><i className='bx bxl-github'></i></a>
                     <a href='https://www.linkedin.com/in/sidneyjunio/'><i className='bx bxl-linkedin'></i></a>
                 </div>
-                <a href='../Portfolio/doc/CurriculoSidney.pdf' target='_blank' className='btn-more'><i className='bx bx-download'></i>
+                <a href={curriculum} target='_blank' rel="noreferrer" className='btn-more'><i className='bx bx-download'></i>
                     Download Curriculum</a>
             </div>
         </div>
