@@ -313,7 +313,7 @@ html, body, #root{
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
+  flex-wrap:wrap-reverse;
   gap: 3rem;
   margin: 30px auto;
   max-width: 1200px;

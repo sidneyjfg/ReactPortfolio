@@ -1,10 +1,9 @@
 import React, { useState } from 'react';
 import chatOnline from '../../img/chatOnline.png';
 import cardIndexFlutter from '../../img/cardIndexFlutter.png';
-import projetoSite from '../../img/projetoSite.png';
 import certificate from '../../img/certificate.png';
-//import newProject1 from '../../img/newProject1.png'; // Novo projeto
-//import newProject2 from '../../img/newProject2.png'; // Novo projeto
+import converter from '../../img/converterXmlToJson.png'; // Novo projeto
+import genio from '../../img/genio.jpeg'; // Novo projeto
 //import newProject3 from '../../img/newProject3.png'; // Novo projeto
 
 function Projects() {
@@ -59,21 +58,13 @@ function Projects() {
         <div className="projects" id="Projects">
             <h2 className="heading">Latest<span> Projects</span></h2>
 
-            <div className="projects-content">
+            <div className="projects-content">  
                 <div className="projects-box">
                     <img src={cardIndexFlutter} alt=""></img>
                     <div className="project-layer">
                         <h4>App Mobile</h4>
                         <p>This app provides basic features such as login authentication seamlessly linked to the bank (Firebase), and some others functions</p>
                         <a href="https://github.com/sidneyjfg/FlutterApp" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
-                    </div>
-                </div>
-                <div className="projects-box">
-                    <img src={projetoSite} alt=""></img>
-                    <div className="project-layer">
-                        <h4>Web design</h4>
-                        <p>This site was intended to be created in order to serve a Customer service, building gas maintenance and others.</p>
-                        <a href="https://engasbrasil.com.br" target="_blank" rel="noopener noreferrer"><i className='bx bx-link-external'></i></a>
                     </div>
                 </div>
                 <div className="projects-box">
@@ -117,27 +108,20 @@ function Projects() {
                     </div>
                 </div>
                 <div className="projects-box">
-                    {/*<img src={newProject1} alt=""></img>*/}
+                    {<img src={converter} alt=""></img>}
                     <div className="project-layer">
-                        <h4>New Project 1</h4>
-                        <p>Description of the new project 1.</p>
-                        <a href="https://github.com/sidneyjfg/newProject1" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
+                        <h4>XML to Json Converter</h4>
+                        <p>This project aims to convert XML files into custom formatted JSON files using Python.</p>
+                        <a href="https://github.com/sidneyjfg/geradorJson" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
                     </div>
                 </div>
                 <div className="projects-box">
-                    {/*<img src={newProject2} alt=""></img>*/}
+                    {<img src={genio} alt=""></img>}
                     <div className="project-layer">
-                        <h4>New Project 2</h4>
-                        <p>Description of the new project 2.</p>
-                        <a href="https://github.com/sidneyjfg/newProject2" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
-                    </div>
-                </div>
-                <div className="projects-box">
-                    {/*<img src={newProject3} alt=""></img>*/}
-                    <div className="project-layer">
-                        <h4>New Project 3</h4>
-                        <p>Description of the new project 3.</p>
-                        <a href="https://github.com/sidneyjfg/newProject3" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
+                        <h4>Genio</h4>
+                        <p>This project allows tattoo artists to create, manage and view the prizes offered to their clients.
+Using technologies such as Node, Mysql, express and js</p>
+                        <a href="https://github.com/sidneyjfg/genio" target="_blank" rel="noopener noreferrer"><i className='bx bxl-github'></i></a>
                     </div>
                 </div>
             </div>

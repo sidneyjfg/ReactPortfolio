@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 import Logo from './img/sjTransparent.png';
 import Home from './Components/Pages/Home';
